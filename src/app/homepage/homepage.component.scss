@@ -1,5 +1,5 @@
 @import "../variables";
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Love+Ya+Like+A+Sister|Sniglet|Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta|PT+Sans+Narrow');
 
 #home-body {
   display: flex;
@@ -39,8 +39,8 @@
 }
 
 .menu-item h1 {
-  font-family: 'Sniglet', 'Caveat Brush', 'Love Ya Like A Sister', 'Chango', 'Roboto', sans-serif;
-  color: $color-primary-dark;
+  font-family: 'PT Sans Narrow', 'Caveat Brush', 'Love Ya Like A Sister', 'Chango', 'Roboto', sans-serif;
+  color: #404040ab;
   margin: 0;
   font-size: 5rem;
 }
