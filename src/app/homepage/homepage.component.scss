@@ -1,0 +1,50 @@
+@import "../variables";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta|PT+Sans+Narrow');
+
+#home-body {
+  display: flex;
+  flex-flow: row wrap;
+  height: 88%;
+}
+
+#about, #menu, #story, #social {
+  width: 50%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#about {
+  background-image: url('../../assets/images/map.png');
+}
+
+#menu {
+  background-image: url('../../assets/images/machine.jpg');
+}
+
+#story {
+  background-image: url('../../assets/images/abbygate_street.png');
+}
+
+#social {
+  background-image: url('../../assets/images/coffee.png');
+}
+
+.menu-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu-item h1 {
+  font-family: 'PT Sans Narrow', 'Caveat Brush', 'Love Ya Like A Sister', 'Chango', 'Roboto', sans-serif;
+  color: #404040ab;
+  margin: 0;
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
