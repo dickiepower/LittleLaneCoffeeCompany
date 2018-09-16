@@ -1,0 +1,75 @@
+@import "../variables";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta|PT+Sans+Narrow');
+
+#homepage {
+  display: flex;
+  flex-flow: row wrap;
+  height: 88%;
+
+  .menu-box {
+    width: 50%;
+  }
+
+  .menu-item {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about {
+    background-image: url('../../assets/images/inside-shop-gmaps.png');
+  }
+
+  #menu {
+    background-image: url('../../assets/images/machine.jpg');
+  }
+
+  #story {
+    background-image: url('../../assets/images/abbygate_street.png');
+  }
+
+  #social {
+    background-image: url('../../assets/images/coffee.png');
+  }
+}
+
+#siteMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  #about {
+    background-image: url('../../assets/images/map.png');
+  }
+
+  #menu {
+    background-image: url('../../assets/images/coffee-crossaint-2.png');
+  }
+
+  #story {
+    background-image: url('../../assets/images/coffee-2.png');
+  }
+
+  #social {
+    background-image: url('../../assets/images/espresso-marshmallow-cookie.jpg');
+  }
+}
+
+.menu-box {
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu-item h1 {
+  font-family: 'PT Sans Narrow', 'Caveat Brush', 'Love Ya Like A Sister', 'Chango', 'Roboto', sans-serif;
+  color: #3e3d3dba;
+  margin: 0;
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
